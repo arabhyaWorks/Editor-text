@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  @page {
+    size: A4;
+    margin: 2.54cm;
+  }
+}
+
+[contenteditable] {
+  outline: none;
+}
